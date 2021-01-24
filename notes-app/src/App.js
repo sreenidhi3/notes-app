@@ -36,7 +36,7 @@ function App() {
   
   localStorage.setItem('prev', notes);
   var prev = localStorage.getItem('prev');
- 
+// console.log(prev);
   //prev.map((p)=>setNotes(p));
   
   return (
